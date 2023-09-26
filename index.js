@@ -25,7 +25,7 @@ async function checkWeather(city){
             weatherIcon.src = "./images/clear.png";
         break;
         case "Clouds": 
-            weatherIcon.src = "./images/cloudy.png";
+            weatherIcon.src = "./images/clouds.png";
         break;
         case "Windy": 
             weatherIcon.src = "./images/windy.png";
@@ -41,6 +41,9 @@ async function checkWeather(city){
         break;
         case "Mist": 
             weatherIcon.src = "./images/mist.png";
+        break;
+        case "Snow": 
+            weatherIcon.src = "./images/snow.png";
         break;
     }
 
